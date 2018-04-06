@@ -19,7 +19,8 @@
 $(call inherit-product, device/motorola/potter/full_potter.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/invictrix/config/common.mk)
+$(call inherit-product, vendor/invictrix/config/cdma.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -27,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
-PRODUCT_NAME := lineage_potter
+PRODUCT_NAME := invictrix_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
