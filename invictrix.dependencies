@@ -3,7 +3,7 @@
     "remote": "github",
     "repository":  "GZR-Kernels/Optimus_Drunk_Potter",
     "target_path": "kernel/motorola/msm8953",
-    "branch": "8.1-64"
+    "branch": "8.1"
   },
   {
     "remote": "github",
@@ -18,10 +18,10 @@
     "branch": "oreo-mr1"
   },
   {
+    "remote": "github",
     "repository": "jhenrique09/prebuilts_clang_host_linux-x86_7.0-DragonTC",
     "target_path": "prebuilts/clang/host/linux-x86/7.0-DragonTC",
-    "branch": "master",
-    "remote": "github"
+    "branch": "master"
   }
 ]
 
